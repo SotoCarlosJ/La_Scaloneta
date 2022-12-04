@@ -5,22 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Scaloneta</title>
-    <link rel="icon" href="./futbol.png">
+    <link rel="icon" href="./multimedia/afa_logo.png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Esto es una prueba para hecer un push en mi rama 30-11-2022 -->
-    <head>
+    <header>
         <div class="head">
             <a href="./index.html">
-                <img src="./Scaloneta_logo.png" alt="Home">
+                <img src="./multimedia/Scaloneta_logo.png" alt="Home">
             </a> 
             <h1>La Scaloneta</h1>
         </div>
-    </head>
+    </header>
 
     <nav class="navbar">
         <ul class="menu">
@@ -32,17 +31,39 @@
     </nav>
 
     <main class="contenedor">
-        <div class="grupo-C">
+        <!-- <div class="grupo-C">
             <h2>Tabla grupo C: Favi</h2>
         </div>
 
         <div class="jornadas">
             <h2>Fixture de jornadas fase de grupos - Grupo C: Ariel</h2>
-        </div>
+        </div> -->
+        <section class="semifinales"> <!-- Inicio .semifinales -->
+            <form action="">
+                <h3 class="titulo-fase">SEMIFINALES</h3>
+                <p class="fecha">Martes 13 de diciembre-16:00hs. /Estadio Lusail</p>
+                <div class="partidos">
+                    <div id="partido-1">
+                        <label for="resultadoA">Equipo</label>
+                        <input type="text" name="" id="resultadoA">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoB">
+                        <label for="resultadoB">Equipo</label>
+                    </div>
+                    
+                    <p class="fecha">Miercoles 14 de diciembre-16:00hs. /Estadio Al Bayt</p>
+                    <div id="partido-2">
 
-        <div class="grupos">
-            <h2>Tabla de posiciones resto de los grupos: Sabrina / <span>Javier?</span></h2>
-        </div>
+                        <label for="resultadoC">Equipo</label>
+                        <input type="text" name="" id="resultadoC">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoD">
+                        <label for="resultadoD">Equipo</label>
+                    </div>
+                </div>
+            </form>
+        </section> <!-- Fin .semifinales -->
+
     </main>
 
     <footer>
@@ -70,4 +91,5 @@
 
     <script src="https://kit.fontawesome.com/08e5deb443.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
