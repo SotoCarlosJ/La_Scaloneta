@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+    overflow: auto;
+}
+
+h1{
+    font-family: 'Merienda', cursive;
+    text-decoration: underline;
+    color: brown;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Nerko One', cursive;
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+ div{
+    color: blueviolet;
+    text-align: start;
+ }
+.a2{
+    margin: 2px;
+    padding: 2px;
+}
+table{
+    margin: 0.5%;
+}
+.a3{
+    width: 20px;
+}
+.a4{
+    margin: 4px;
+}
