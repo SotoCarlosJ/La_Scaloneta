@@ -1,39 +1,307 @@
-*{
-    margin: 0;
-    padding: 0;
+html {
     box-sizing: border-box;
-    background-color: beige;
-    overflow: auto;
 }
 
-h1{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.head {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.head a {
+    text-decoration: none;
+    color: black;
+}
+
+.head a img {
+    border-radius: 50%;
+    width: 60px;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: skyblue;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.menu li {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Inicio de estilos para el main */
+.contenedor {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    gap: 8px;
+}
+
+.octavos {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.titulo-fase {
+    font-family: 'Nerko One', cursive;
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.fecha {
+    color: blueviolet;
+    text-align: start;
+    margin-bottom: 4px;
+    font-size: 10px;
+}
+
+#partido-1 {
+    margin-bottom: 8px;
+}
+
+#partido-1,
+#partido-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#partido-1 input,
+#partido-2 input {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px;
+}
+
+h1 {
     font-family: 'Merienda', cursive;
     text-decoration: underline;
     color: brown;
     font-weight: bold;
 }
 
-h3{
+.semifinales {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.titulo-fase {
     font-family: 'Nerko One', cursive;
     color: brown;
     text-decoration: underline;
     font-weight: bold;
-    
+    margin-bottom: 8px;
 }
- div{
+
+.fecha {
     color: blueviolet;
     text-align: start;
- }
-.a2{
-    margin: 2px;
-    padding: 2px;
+    margin-bottom: 4px;
+    font-size: 10px;
 }
-table{
-    margin: 0.5%;
+
+#partido-1 {
+    margin-bottom: 8px;
 }
-.a3{
+
+#partido-1,
+#partido-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#partido-1 input,
+#partido-2 input {
     width: 20px;
+    height: 20px;
+    margin: 0 8px;
 }
-.a4{
-    margin: 4px;
+
+h1 {
+    font-family: 'Merienda', cursive;
+    text-decoration: underline;
+    color: brown;
+    font-weight: bold;
 }
+
+
+.semifinales {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.titulo-fase {
+    font-family: 'Nerko One', cursive;
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.fecha {
+    color: blueviolet;
+    text-align: start;
+    margin-bottom: 4px;
+    font-size: 10px;
+}
+
+#partido-1 {
+    margin-bottom: 8px;
+}
+
+#partido-1,
+#partido-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#partido-1 input,
+#partido-2 input {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+    text-decoration: underline;
+    color: brown;
+    font-weight: bold;
+}
+
+.puesto {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.titulo-fase {
+    font-family: 'Nerko One', cursive;
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.fecha {
+    color: blueviolet;
+    text-align: start;
+    margin-bottom: 4px;
+    font-size: 10px;
+}
+
+#partido-1 {
+    margin-bottom: 8px;
+}
+
+#partido-1,
+#partido-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#partido-1 input,
+#partido-2 input {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+    text-decoration: underline;
+    color: brown;
+    font-weight: bold;
+}
+
+.final {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.titulo-fase {
+    font-family: 'Nerko One', cursive;
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.fecha {
+    color: blueviolet;
+    text-align: start;
+    margin-bottom: 4px;
+    font-size: 10px;
+}
+
+#partido-1 {
+    margin-bottom: 8px;
+}
+
+#partido-1,
+#partido-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#partido-1 input,
+#partido-2 input {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+    text-decoration: underline;
+    color: brown;
+    font-weight: bold;
+}
+
+/*fin de estilos para el main*/

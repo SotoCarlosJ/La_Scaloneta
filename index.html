@@ -17,190 +17,220 @@
     <header>
     </header>
     <main>
-        <section>
-            <h3>OCTAVOS DE FINAL</h3>
-            <br>
-            <div>Sabado 3 de diciembre-12:00hs. /Estadio Khalifa</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>1</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="1ºA"><input class="a3" type="text" name="resultado"> vs
-                        <input class="a3" type="text" name="resultado"><input class="a4" type="text" name="nombre" placeholder="2ºB"></th>
-                </tr>
-            </table>
-            <div>Sabado 3 de Diciembre-16:00hs./ Estadio Ahmad Bin Ali</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>2</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="1ºC"><input class="a3" type="text" name="resultado"
-                            cellpadding="1px"> vs <input class="a3" type="text" name="resultado"><input class="a4" type="text" name="nombre"
-                            placeholder="2ºD"></th>
-                </tr>
-            </table>
-            <div>Domingo 04 de Diciembre-12:00hs./ Estadio Al Thumama</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>3</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="1ºD"><input class="a3" type="text" name="resultado"> vs
-                        <input class="a3" type="text" name="resultado"><input class="a4" type="text" name="nombre" placeholder="2ºC"
-                            ></th>
-                </tr>
-            </table>
-            <div>Domingo 04 de Diciembre-16:00hs./ Estadio Al Thumama</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>4</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="1ºB"><input class="a3" type="text" name="resultado"> vs
-                        <input class="a3" type="text" name="resultado"><input class="a4" type="text" name="nombre" placeholder="2ºA"
-                            ></th>
-                </tr>
-            </table>
-            <div>Lunes 05 de Diciembre-12:00hs./ Estadio Al Janoub</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>5</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="1ºE"><input class="a3" type="text" name="resultado"> vs
-                        <input class="a3" type="text" name="resultado"><input type="text" name="nombre" placeholder="2ºF"
-                            class="a4"></th>
-                </tr>
-            </table>
-            <div>Lunes 05 de Diciembre-16:00hs./ Estadio 974</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>6</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="1ºG"><input class="a3" type="text" name="resultado"> vs
-                        <input class="a3" type="text" name="resultado"><input type="text" name="nombre" placeholder="2ºH"
-                            class="a4"></th>
-                </tr>
-            </table>
-            <div>Martes 06 de Diciembre-12:00hs./ Estadio Ciudad Educaciòn</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>7</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="1ºF"><input class="a3" type="text" name="resultado"> vs
-                        <input class="a3" type="text" name="resultado"><input type="text" name="nombre" placeholder="2ºE"
-                            class="a4"></th>
-                </tr>
-            </table>
-            <div>Martes 06 de Diciembre-16:00hs./ Estadio Lusail
-                <table border="2" cellpadding="5px">
-                    <tr>
-                        <th>8</th>
-                        <th><input class="a4" type="text" name="nombre" placeholder="1ºH"><input class="a3" type="text" name="resultado"> vs
-                            <input class="a3" type="text" name="resultado"><input type="text" name="nombre" placeholder="2ºG"
-                                class="a4"></th>
-                    </tr>
-                </table>
+        <section class="octavos"> <!-- Inicio .octavos -->
+            <form action="">
+                <h3 class="titulo-fase">OCTAVOS DE FINAL</h3>
+                <p class="fecha">Sabado 03 de diciembre-12:00hs. /Estadio Khalifa</p>
+                <div class="partidos">
+                    <div id="partido-1">
+                        <label for="resultadoA">Paises Bajos</label>
+                        <input type="text" name="" id="resultadoA">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoB">
+                        <label for="resultadoB">Estados Unidos</label>
+                    </div>
+                    
+                    <p class="fecha">Sabado 03 de diciembre-16:00hs. /Estadio Ahmad Bin Ali</p>
+                    <div id="partido-2">
 
+                        <label for="resultadoC">Argentina</label>
+                        <input type="text" name="" id="resultadoC">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoD">
+                        <label for="resultadoD">Australia</label>
+                    </div>
+                </div>
+                <p class="fecha">Domingo 04 de diciembre-12:00hs. /Estadio Al Thumana</p>
+                <div class="partidos">
+                    <div id="partido-1">
+                        <label for="resultadoA">Francia</label>
+                        <input type="text" name="" id="resultadoA">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoB">
+                        <label for="resultadoB">Polonia</label>
+                    </div>
+                    
+                    <p class="fecha">Domingo 04 de diciembre-16:00hs. /Estadio Al Thumana</p>
+                    <div id="partido-2">
 
+                        <label for="resultadoC">Inglaterra</label>
+                        <input type="text" name="" id="resultadoC">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoD">
+                        <label for="resultadoD">Senegal</label>
+                    </div>
+                </div>
+                <p class="fecha">Lunes 05 de diciembre-12:00hs. /Estadio Al Janoub</p>
+                <div class="partidos">
+                    <div id="partido-1">
+                        <label for="resultadoA">Japon</label>
+                        <input type="text" name="" id="resultadoA">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoB">
+                        <label for="resultadoB">Croacia</label>
+                    </div>
+                    
+                    <p class="fecha">Lunes 05 de diciembre-16:00hs. /Estadio 974</p>
+                    <div id="partido-2">
+
+                        <label for="resultadoC">Brasil</label>
+                        <input type="text" name="" id="resultadoC">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoD">
+                        <label for="resultadoD">Corea del Sur</label>
+                    </div>
+                </div>
+                <p class="fecha">Martes 06 de diciembre-12:00hs. /Estadio Ciudad Educacion</p>
+                <div class="partidos">
+                    <div id="partido-1">
+                        <label for="resultadoA">Marruecos</label>
+                        <input type="text" name="" id="resultadoA">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoB">
+                        <label for="resultadoB">España</label>
+                    </div>
+                    
+                    <p class="fecha">Martes 06 de diciembre-16:00hs. /Estadio Lusail</p>
+                    <div id="partido-2">
+
+                        <label for="resultadoC">Portugal</label>
+                        <input type="text" name="" id="resultadoC">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoD">
+                        <label for="resultadoD">Suiza</label>
+                    </div>
+                </div>
+                
+            </form>
         </section>
-        <br>
-        <section>
-            <h3>CUARTOS DE FINAL</h3>
-            <br>
-            <div>Viernes 09 de diciembre-12:00hs. /Estadio Ciudad Educaciòn</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>A</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="Ganador 5"><input class="a3" type="text" name="resultado"> vs
-                        <input class="a3" type="text" name="nombre"><input type="text" name="nombre" placeholder="Ganador 6"
-                            class="a4"></th>
-                </tr>
-            </table>
-            <div>Viernes 09 de diciembre-12:00hs. /Estadio Lusail</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>B</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="Ganador 1"><input class="a3" type="text" name="resultado"> vs
-                        <input class="a3" type="text" name="nombre"><input type="text" name="nombre" placeholder="Ganador 2"
-                            class="a4"></th>
-                </tr>
-            </table>
-            <div>Sabado 10 de diciembre-12:00hs. /Estadio Al Thumama</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>C</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="Ganador 7"><input class="a3" type="text" name="resultado"> vs
-                        <input class="a3" type="text" name="nombre"><input type="text" name="nombre" placeholder="Ganador 8"
-                            class="a4"></th>
-                </tr>
-            </table>
-            <div>Sabado 10 de diciembre-12:00hs. /Estadio Al Bayt</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>D</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="Ganador 4"><input class="a3" type="text" name="resultado"> vs
-                        <input class="a3" type="text" name="nombre"><input type="text" name="nombre" placeholder="Ganador 3"
-                            class="a4"></th>
-                </tr>
-            </table>
-        </section>
-        <br>
-        <section>
-            <h3>SEMIFINAL</h3>
-            <br>
-            <div>Martes 13 de diciembre-16:00hs. /Estadio Lusail</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>I</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="Ganador partido A"><input class="a3" type="text"
-                            name="resultado"> vs <input class="a3" type="text" name="nombre"><input type="text" name="nombre"
-                            placeholder="Ganador partido B" class="a4"></th>
-                </tr>
-            </table>
-            <div>Miercoles 14 de diciembre-16:00hs. /Estadio Al Bayt</div>
+         <!-- Fin .octavos -->
+        <section> 
+            <section class="cuartos"> <!-- Inicio .cuartos -->
+            <form action="">
+                <h3 class="titulo-fase">CUARTOS DE FINAL</h3>
+                <p class="fecha">Viernes 09 de diciembre-12:00hs. /Estadio Ciudad Educacion</p>
+                <div class="partidos">
+                    <div id="partido-1">
+                        <label for="resultadoA">Croacia</label>
+                        <input type="text" name="" id="resultadoA">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoB">
+                        <label for="resultadoB">Brasil</label>
+                    </div>
+                    
+                    <p class="fecha">Viernes 09 de diciembre-16:00hs. /Estadio Lusail</p>
+                    <div id="partido-2">
 
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>II</th>
-                    <th><input class="a4" type="text" name="nombre" placeholder="Ganador partido C"><input class="a3" type="text"
-                            name="resultado"> vs <input class="a3" type="text" name="nombre"><input type="text" name="nombre"
-                            placeholder="Ganador partido D" class="a4"></th>
-                </tr>
-            </table>
-        </section>
-        <br>
-        <section>
-            <h3>TERCER PUESTO</h3>
-            <br>
-            <div>Sabado 17 de diciembre-12:00hs. /Estadio Khalifa</div>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th><input class="a4" type="text" name="nombre" placeholder="Perdedor partido I"><input class="a3" type="text"
-                            name="resultado"> vs <input class="a3" type="text" name="nombre"><input type="text" name="nombre"
-                            placeholder="Perdedor partido II" class="a4"></th>
-                </tr>
-            </table>
+                        <label for="resultadoC">Paises Bajos</label>
+                        <input type="text" name="" id="resultadoC">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoD">
+                        <label for="resultadoD">Argentina</label>
+                    </div>
+                </div>
+                <p class="fecha">Sabado 10 de diciembre-12:00hs. /Estadio Al Thumana</p>
+                <div class="partidos">
+                    <div id="partido-1">
+                        <label for="resultadoA">Marruecos</label>
+                        <input type="text" name="" id="resultadoA">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoB">
+                        <label for="resultadoB">Portugal</label>
+                    </div>
+                    
+                    <p class="fecha">Sabado 10 de diciembre-16:00hs. /Estadio Al Bayt</p>
+                    <div id="partido-2">
 
-        </section>
-        <br>
+                        <label for="resultadoC">Inglaterra</label>
+                        <input type="text" name="" id="resultadoC">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoD">
+                        <label for="resultadoD">Francia</label>
+                    </div>
+                
+                </div>
+                
+            </form>
+        </section> <!-- Fin .cuartos -->
+        <section> 
+            <section class="semifinales"> <!-- Inicio .semifinales -->
+            <form action="">
+                <h3 class="titulo-fase">SEMIFINALES</h3>
+                <p class="fecha">Martes 13 de diciembre-16:00hs. /Estadio Lusail</p>
+                <div class="partidos">
+                    <div id="partido-1">
+                        <label for="resultadoA">Equipo</label>
+                        <input type="text" name="" id="resultadoA">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoB">
+                        <label for="resultadoB">Equipo</label>
+                    </div>
+                    
+                    <p class="fecha">Martes 13 de diciembre-16:00hs. /Estadio Al Bayt</p>
+                    <div id="partido-2">
 
-        <section>
-            <h3>FINAL</h3>
-            <br>
-            <div>Domingo 18 de diciembre-12:00hs. /Estadio Lusail</div>
-            <table border="4" cellpadding="10px">
-                <tr>
-                    <th class="a2"><input class="a4" type="text" name="nombre" placeholder="Ganador partido I"><input class="a3" type="text"
-                            name="resultado"> vs <input class="a3" type="text" name="nombre"><input type="text" name="nombre"
-                            placeholder="Ganador partido II" class="a4"></th>
-                </tr>
-            </table>
+                        <label for="resultadoC">Equipo</label>
+                        <input type="text" name="" id="resultadoC">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoD">
+                        <label for="resultadoD">Equipo</label>
+                    </div>
+                
+                
+                </div>
+                
+            </form>
+        </section> <!-- Fin .semifinales -->
+           
+        <section> 
+            <section class="puesto"> <!-- Inicio .3puesto -->
+            <form action="">
+                <h3 class="titulo-fase">TERCER PUESTO</h3>
+                <p class="fecha">Sabado 17 de diciembre-12:00hs. /Estadio Khalifa</p>
+                <div class="partidos">
+                    <div id="partido-1">
+                        <label for="resultadoA">Equipo</label>
+                        <input type="text" name="" id="resultadoA">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoB">
+                        <label for="resultadoB">Equipo</label>
+                    </div>
+                    
+                    
+                
+                
+                </div>
+                
+            </form>
+        </section> <!-- Fin .3puesto -->
 
-        </section>
-        <br>
-        <section>
-            <h1>CAMPEÒN</h1>
-            <br>
-            <table border="2" cellpadding="5px">
-                <tr>
-                    <th>
-                        <input type="text" name="Ganador">
-                    </th>
-                </tr>
-            </table>
-        </section>
+   <section> 
+            <section class="final"> <!-- Inicio .final -->
+            <form action="">
+                <h3 class="titulo-fase">FINAL</h3>
+                <p class="fecha">Domingo 18 de diciembre-12:00hs. /Estadio Lusail</p>
+                <div class="partidos">
+                    <div id="partido-1">
+                        <label for="resultadoA">Equipo</label>
+                        <input type="text" name="" id="resultadoA">
+                        <p>vs</p>
+                        <input type="text" name="" id="resultadoB">
+                        <label for="resultadoB">Equipo</label>
+                    </div>
+                    
+                   
+                
+                
+                </div>
+                
+            </form>
+        </section> <!-- Fin .final -->
 
+        
+       
+        
+       
+    
     </main>
 
 
